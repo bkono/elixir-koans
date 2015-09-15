@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+About_Anonymous_Functions	about_anonymous_function.exs	/^defmodule About_Anonymous_Functions do$/;"	m
+About_Lists	about_lists.exs	/^defmodule About_Lists do$/;"	m
+About_Matches_Variables	about_match_variables.exs	/^defmodule About_Matches_Variables do$/;"	m
+About_Named_Functions	about_named_function.exs	/^defmodule About_Named_Functions do$/;"	m
+About_Numbers_and_booleans	about_numbers_and_booleans.exs	/^defmodule About_Numbers_and_booleans do$/;"	m
+About_Tuples	about_tuples.exs	/^defmodule About_Tuples do$/;"	m
+About_testing	about_testing.exs	/^defmodule About_testing do$/;"	m
+About_testing	utils/Koans.ex	/^defmodule Koans.About_testing do$/;"	m
+Case	utils/Koans.ex	/^defmodule FakeUnit.Case do$/;"	m
+Koans	utils/Koans.ex	/^defmodule Koans do$/;"	m
+MeditateWarning	utils/Koans.ex	/^defmodule Koans.MeditateWarning do$/;"	m
+__?	utils/Koans.ex	/^    defmacro __?(_ \\\\ nil, _ \\\\ nil) do$/;"	a
+__using__	utils/Koans.ex	/^    defmacro __using__([]) do$/;"	a
+assert	utils/Koans.ex	/^    def assert _ do$/;"	f
+assert	utils/Koans.ex	/^    def assert _, _ do$/;"	f
+assert_?	utils/Koans.ex	/^    defmacro assert_?(_ \\\\ nil, _ \\\\ nil) do$/;"	a
+assert_raise	utils/Koans.ex	/^    def assert_raise _, _, _ do$/;"	f
+erlang_elem	about_tuples.exs	/^    defmacrop erlang_elem(tuple, index) do$/;"	a
+exUnit_Case_used?	utils/Koans.ex	/^    def exUnit_Case_used? env do$/;"	f
+exUnit_started?	utils/Koans.ex	/^    def exUnit_started? do$/;"	f
+factorial	about_named_function.exs	/^    def factorial(0) do 1 end$/;"	f
+factorial	about_named_function.exs	/^    def factorial(n) do n * factorial(n-1) end$/;"	f
+hello	about_named_function.exs	/^    def hello(name) do$/;"	f
+hello	about_named_function.exs	/^    def hello(name, country) do$/;"	f
+i_can_identify_type	about_named_function.exs	/^    def i_can_identify_type(value) when is_atom(value) do$/;"	f
+i_can_identify_type	about_named_function.exs	/^    def i_can_identify_type(value) when is_float(value) do$/;"	f
+i_can_identify_type	about_named_function.exs	/^    def i_can_identify_type(value) when is_number(value) do$/;"	f
+meditate	utils/Koans.ex	/^    def meditate(subject) do$/;"	f
+message	utils/Koans.ex	/^    def message(exception) do$/;"	f
+refute	utils/Koans.ex	/^    def refute _ do$/;"	f
+start_exUnit!	utils/Koans.ex	/^    def start_exUnit! do$/;"	f
+test	utils/Koans.ex	/^    def test(_, _) do$/;"	f
+think	utils/Koans.ex	/^    defmacro think(message, var \\\\ quote(do: _), contents) do$/;"	a
