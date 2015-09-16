@@ -8,7 +8,7 @@ defmodule About_testing do
     use Koans.About_testing
 
     think "We shall contemplate truth by testing reality, via asserts." do
-        assert __?
+        assert true
     end
 
     think "When reality lie, we shall refute truth" do
