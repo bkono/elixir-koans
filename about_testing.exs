@@ -12,7 +12,7 @@ defmodule About_testing do
     end
 
     think "When reality lie, we shall refute truth" do
-        refute __?
+        refute false
     end
 
     think "Enlightenment may be more easily achieved with appropriate messages." do
