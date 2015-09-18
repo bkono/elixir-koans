@@ -16,7 +16,7 @@ defmodule About_testing do
     end
 
     think "Enlightenment may be more easily achieved with appropriate messages." do
-        assert __?, "This should be true -- Please fix this"
+        assert "This should be true -- Please fix this", "This should be true -- Please fix this"
     end
 
     think "To understand reality, we must compare our expectations against reality." do
