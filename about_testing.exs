@@ -20,7 +20,7 @@ defmodule About_testing do
     end
 
     think "To understand reality, we must compare our expectations against reality." do
-        expected_value = __?
+        expected_value = 2
         actual_value = 1 + 1
 
         assert expected_value == actual_value
