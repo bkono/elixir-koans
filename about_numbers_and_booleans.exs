@@ -20,13 +20,13 @@ defmodule About_Numbers_and_booleans do
     end
 
     think "Is an hexadecimal number treated as an integer" do
-        assert_? is_integer(0x2A)
+        assert is_integer(0x2A)
     end
 
     think "Answer to the Ultimate Question of Life, the Universe, and Everything" do
         an_hex = 0x20
         a_dec = 10
-        assert an_hex + a_dec == __?
+        assert an_hex + a_dec == 42
     end
 
     think "You can use _ as separator in integer" do
