@@ -31,7 +31,7 @@ defmodule About_Numbers_and_booleans do
 
     think "You can use _ as separator in integer" do
         an_integer = 100_000_000
-        assert_? is_integer(an_integer)
+        assert is_integer(an_integer)
     end
 
     think "Value equality operator has an usual expectation" do
