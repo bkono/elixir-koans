@@ -37,13 +37,13 @@ defmodule About_Numbers_and_booleans do
     think "Value equality operator has an usual expectation" do
         an_integer = 4
         a_float = 4.0
-        assert_? an_integer == a_float
+        assert an_integer == a_float
     end
 
     think "Value inequality operator has an usual expectation" do
         an_integer = 4
         a_float = 2.0
-        assert_? an_integer != a_float
+        assert  an_integer != a_float
     end
 
     think "Strict equality operator take care about types" do
