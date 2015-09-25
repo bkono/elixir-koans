@@ -49,13 +49,13 @@ defmodule About_Numbers_and_booleans do
     think "Strict equality operator take care about types" do
         an_integer = 4
         a_float = 4.0
-        assert_? an_integer === a_float
+        refute an_integer === a_float
     end
 
     think "Strict inequality operator take care about types" do
         an_integer = 4
         a_float = 4.0
-        assert_? an_integer !== a_float
+        assert an_integer !== a_float
     end
 
     think "Comparing two values considering type" do
