@@ -65,8 +65,8 @@ defmodule About_Numbers_and_booleans do
     end
 
     think "Are booleans integers ?" do
-        assert_? is_integer(true)
-        assert_? is_boolean(0)
+        refute is_integer(true)
+        refute is_boolean(0)
     end
 
     think "Booleans are atoms" do
