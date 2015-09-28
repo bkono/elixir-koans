@@ -70,8 +70,8 @@ defmodule About_Numbers_and_booleans do
     end
 
     think "Booleans are atoms" do
-        assert_? is_atom(true)
-        assert :true == __?
+        assert is_atom(true)
+        assert :true == true
     end
 
     think "That's true if a_boolean is true ortherwise b_boolean" do
