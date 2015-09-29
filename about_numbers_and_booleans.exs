@@ -77,7 +77,7 @@ defmodule About_Numbers_and_booleans do
     think "That's true if a_boolean is true ortherwise b_boolean" do
         a_boolean = false
         b_boolean = true
-        assert_? a_boolean or b_boolean
+        assert a_boolean or b_boolean
     end
 
     think "Operator || is a relaxed boolean operator, that's true if a_variable or b_variable isn't nil" do
