@@ -83,7 +83,7 @@ defmodule About_Numbers_and_booleans do
     think "Operator || is a relaxed boolean operator, that's true if a_variable or b_variable isn't nil" do
         a_variable = 42
         b_variable = nil
-        assert_? a_variable || b_variable
+        assert a_variable || b_variable
     end
 
     think "Operator && is a relaxed boolean operator, that's true if a_variable and b_variable isn't nil" do
