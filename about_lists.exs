@@ -7,7 +7,7 @@ defmodule About_Lists do
     use Koans
 
     think "Create your first list" do
-        a_list = __?
+        a_list = []
         assert is_list(a_list)
     end
 
