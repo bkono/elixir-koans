@@ -13,7 +13,7 @@ defmodule About_Lists do
 
     think "Getting list lenght is a kernel feature" do
         a_list = [1, 2, 3]
-        assert length(a_list) == __?
+        assert length(a_list) == 3
     end
 
     think "Elixir provide special operator to concatenate lists" do
