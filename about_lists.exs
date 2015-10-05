@@ -23,7 +23,7 @@ defmodule About_Lists do
 
     think "Elixir provide special operator to remove element from list" do
         a_list = [1, 2, 3]
-        assert a_list -- [2] == __?
+        assert a_list -- [2] == [1,3]
     end
 
     think "Only first element is removed with truncate operator" do
