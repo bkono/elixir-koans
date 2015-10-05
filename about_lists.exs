@@ -18,7 +18,7 @@ defmodule About_Lists do
 
     think "Elixir provide special operator to concatenate lists" do
         a_list = [1, 2]
-        assert a_list ++ [3] == __?
+        assert a_list ++ [3] == [1,2,3]
     end
 
     think "Elixir provide special operator to remove element from list" do
