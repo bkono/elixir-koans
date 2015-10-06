@@ -28,7 +28,7 @@ defmodule About_Lists do
 
     think "Only first element is removed with truncate operator" do
         a_list = [:foo, :bar, :foo]
-        assert a_list -- [:foo] == __?
+        assert a_list -- [:foo] == [:bar, :foo]
     end
 
     think "Truncate operator do nothing when element not in list" do
