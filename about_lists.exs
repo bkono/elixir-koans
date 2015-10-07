@@ -31,9 +31,9 @@ defmodule About_Lists do
         assert a_list -- [:foo] == [:bar, :foo]
     end
 
-    think "Truncate operator do nothing when element not in list" do
+    think "Truncate operator does nothing when element not in list" do
         a_list = [:foo, :bar]
-        assert_? a_list -- [:baz] == [:foo, :bar]
+        assert a_list -- [:baz] == [:foo, :bar]
     end
 
     think "The in operator test if element is present inner an enum" do
