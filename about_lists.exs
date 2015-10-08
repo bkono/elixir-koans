@@ -38,7 +38,7 @@ defmodule About_Lists do
 
     think "The in operator test if element is present inner an enum" do
         a_list = [:foo, :bar]
-        assert_? :bar in a_list
+        assert :bar in a_list
     end
 
 end
