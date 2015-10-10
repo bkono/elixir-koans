@@ -13,7 +13,7 @@ defmodule About_Tuples do
 
     think "Can reach tuple element with index" do
         a_tuple = {:foo, :bar}
-        assert elem(a_tuple, 0) == __?
+        assert elem(a_tuple, 0) == :foo
     end
 
     defmacrop erlang_elem(tuple, index) do
