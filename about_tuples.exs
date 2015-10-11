@@ -31,8 +31,8 @@ defmodule About_Tuples do
         a_tuple = {:foo, :bar}
         baz_tuple = put_elem(a_tuple, 0, :baz)
         # Note: think about immutability
-        assert elem(a_tuple, 0) == __?
-        assert elem(baz_tuple, 0) == __?
+        assert elem(a_tuple, 0) == :foo
+        assert elem(baz_tuple, 0) == :baz
     end
 
     think "Setting a tuple element that not exists raise an argument error" do
