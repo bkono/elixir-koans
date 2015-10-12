@@ -38,7 +38,7 @@ defmodule About_Tuples do
     think "Setting a tuple element that not exists raise an argument error" do
         a_tuple = {:foo, :bar}
 
-        assert_raise ArgumentError, fn -> put_elem(a_tuple, __?, :baz) end
+        assert_raise ArgumentError, fn -> put_elem(a_tuple, 2, :baz) end
     end
 
     think "Can insert a tuple element" do
